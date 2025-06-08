@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="nav_item_selected_background">#98B2A5</color>
+    <!-- Verde para OK -->
+    <color name="verde_ok">#4CAF50</color>       <!-- Verde Material -->
+
+    <!-- Vermelho para Cancelar -->
+    <color name="vermelho_cancelar">#F44336</color>  <!-- Vermelho Material -->
+
+    <!-- Outras sugestões opcionais -->
+    <color name="azul_confirmar">#2196F3</color>      <!-- Azul Material -->
+    <color name="cinza_neutro">#9E9E9E</color>        <!-- Cinza neutro -->
+    <color name="preto">#000000</color>
+    <color name="branco">#FFFFFF</color>
+
+</resources>
