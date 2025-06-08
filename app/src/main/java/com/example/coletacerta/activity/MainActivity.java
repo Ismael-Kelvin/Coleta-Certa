@@ -13,6 +13,8 @@ import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
+
+import com.example.coletacerta.fragmentos.Contatos;
 import com.example.coletacerta.fragmentos.UsuariosFragment;
 
 
@@ -64,9 +66,10 @@ public class MainActivity extends AppCompatActivity {
             } else if (id == R.id.menu_duvidas){
 
             } else if (id == R.id.menu_contatos){
-               // Intent intent = new Intent(MainActivity.this, Contatos.class);
-                //startActivity(intent);
-                //finish();
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment_container, new Contatos())
+                        .commit();
 
             } else if (id == R.id.menu_perfil){
                 getSupportFragmentManager()
