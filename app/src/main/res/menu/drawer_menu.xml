@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_perfil"
+        android:title="Usuário"
+        android:icon="@drawable/ic_usuario"
+        />
+    <item
+        android:id="@+id/menu_acompanhar_coleta"
+        android:title="Acompanhar coleta"
+        android:icon="@drawable/ic_acompanhar_coleta"/>
+    <item
+        android:id="@+id/menu_tipo_resido"
+        android:title="Tipos de residuos"
+        android:icon="@drawable/ic_lixeira"/>
+    <item
+        android:id="@+id/menu_edcucacao"
+        android:title="Educação"
+        android:icon="@drawable/ic_educacao"/>
+    <item
+        android:id="@+id/menu_duvidas"
+        android:title="Dúvidas"
+        android:icon="@drawable/ic_duvidas"/>
+    <item
+        android:id="@+id/menu_contatos"
+        android:title="Contatos"
+        android:icon="@drawable/ic_contatos"/>
+    <item
+        android:id="@+id/menu_sair"
+        android:title="Sair"
+        android:icon="@drawable/ic_sair"/>
+</menu>

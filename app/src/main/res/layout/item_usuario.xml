@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/sh_borda"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:id="@+id/layoutTexto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnAlterarPerfil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/txtNomeUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Usuário"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEmailUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email@exemplo.com"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAlterarPerfil"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="Alterar Perfil"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        app:backgroundTint="@null"
+        android:background="@drawable/sh_bnt_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

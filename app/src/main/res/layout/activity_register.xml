@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.Register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_coleta_certa"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="Cadastro"
+        android:textColor="#164155"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/txt_usuario_register"
+        android:layout_width="280dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="left"
+        android:text="Nome do Usuário"
+        android:textColor="#164155"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_txt_usuario_register"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:background="@drawable/sh_input_txt"
+        android:drawableStart="@drawable/ic_login"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:fontFamily="@font/luckiest_guy"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:textColor="#ffffff"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_email_register"
+        android:layout_width="280dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="left"
+        android:text="E-mail"
+        android:textColor="#164155"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_txt_email_register"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:background="@drawable/sh_input_txt"
+        android:drawableStart="@drawable/ic_login"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:fontFamily="@font/luckiest_guy"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:textColor="#ffffff"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_senha_register"
+        android:layout_width="280dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="left"
+        android:text="Senha"
+        android:textColor="#164155"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/edt_txt_senha_register"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:background="@drawable/sh_input_txt"
+        android:drawableStart="@drawable/ic_senha"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:fontFamily="@font/luckiest_guy"
+        android:hint="******"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/txt_senha_confirma_register"
+        android:layout_width="280dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="left"
+        android:text="Confirmar senha"
+        android:textColor="#164155"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/edt_txt_senha_confirma_register"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:background="@drawable/sh_input_txt"
+        android:drawableStart="@drawable/ic_senha"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:fontFamily="@font/luckiest_guy"
+        android:hint="******"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/cbx_mostrar_senha_register"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="Mostrar senha"
+            android:textColor="#164155"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btt_registrar"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/sh_bnt_login"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Cadastrar"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txt_voltar_login"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#7C8494" />
+
+</LinearLayout>

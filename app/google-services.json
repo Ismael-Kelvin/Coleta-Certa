@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722173428973",
+    "project_id": "coleta-certa-b8feb",
+    "storage_bucket": "coleta-certa-b8feb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722173428973:android:5fc8434a912da5ed9278e4",
+        "android_client_info": {
+          "package_name": "com.example.coletacerta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_AJoVZhw0BTkJtrEuSFZEIis9ly8SygU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

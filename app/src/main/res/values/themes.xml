@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ColetaCerta" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Forçar todos os CheckBoxes a usarem seu estilo customizado -->
+        <item name="checkboxStyle">@style/MyCustomCheckboxStyle</item>
+    </style>
+
+    <style name="Theme.ColetaCerta" parent="Base.Theme.ColetaCerta" />
+
+
+    <style name="MyCustomCheckboxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/cbx_color_login</item>
+        <item name="colorOnSurface">#7FA571</item>
+    </style>
+</resources>
