@@ -64,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
             } else if (id == R.id.menu_duvidas){
 
             } else if (id == R.id.menu_contatos){
+               // Intent intent = new Intent(MainActivity.this, Contatos.class);
+                //startActivity(intent);
+                //finish();
 
             } else if (id == R.id.menu_perfil){
                 getSupportFragmentManager()
