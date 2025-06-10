@@ -166,7 +166,6 @@
             android:background="@drawable/sh_input_txt"
             android:fontFamily="@font/poppins_medium"
             android:hint="CEP"
-            android:inputType="number"
             android:padding="12dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
